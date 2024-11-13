@@ -18,7 +18,7 @@ fi
 # Archivos temporales locales
 FILE1="/tmp/file1_$(date +%Y%m%d%H%M%S)"
 FILE2="/tmp/file2_$(date +%Y%m%d%H%M%S)"
-LOG_FILE="diferencias_$(date +%Y%m%d%H%M%S).log"
+LOG_FILE="logs/diferencias_$(date +%Y%m%d%H%M%S).log"
 
 # Descargar los archivos de los servidores
 echo "Descargando archivo desde $SERVER1..."
