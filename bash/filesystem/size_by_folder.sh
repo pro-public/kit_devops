@@ -1,0 +1,1 @@
+ls -l --block-size=M *.gz | awk '{ sum += $5 } END{ print sum }'
